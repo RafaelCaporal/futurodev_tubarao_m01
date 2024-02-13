@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2053a5;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+}
+
+#caminhao {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dados input {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.dados button {
+  font-size: 18px;
+  border-radius: 5px;
+  /* width: 75px; */
+  align-items: center;
+}
+
+#p-resultado {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: white dashed 2px;
+  padding: 4px;
+}
