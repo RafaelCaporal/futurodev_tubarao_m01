@@ -1,0 +1,131 @@
+/* CSS Página index.html */
+
+body {
+  background-color: #f8f8ff;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.button {
+  background-color: black;
+  border: 0px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.conteinerBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.titleName {
+  font-family: Verdana;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textoPerfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+}
+
+ul li {
+  font-family: verdana;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 16;
+}
+
+/* CSS Página fotos.html */
+
+.conteinerFoto img {
+  border-radius: 100px;
+  width: 530px;
+  border: black solid 2px;
+}
+
+.conteinerFoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS Página Profissional */
+
+.conteinerListas {
+  display: grid;
+  justify-content: center;
+}
+
+.profissional h3 {
+  display: flex;
+  position: relative;
+}
+
+.educacional h3 {
+  display: flex;
+  position: relative;
+}
+
+.educacional h3::before {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: url(img/edu.svg) no-repeat center center;
+  position: absolute;
+  left: -25px;
+  top: 1px;
+}
+
+.profissional h3::before {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: url(img/prof.svg) no-repeat center center;
+  position: absolute;
+  left: -25px;
+  top: 1px;
+}
+
+.conteinerListas a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* CSS Página Hobbies */
+
+.containerIcones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
