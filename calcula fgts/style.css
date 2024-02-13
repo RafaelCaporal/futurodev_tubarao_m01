@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  color: white;
+  background-color: #14336c;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dados h1 {
+  font-size: 28pt;
+  margin-top: 200px;
+  margin-bottom: 25px;
+}
+
+.dados img {
+  margin-bottom: 25px;
+}
+
+.dados input {
+  border-radius: 4px;
+  font-size: 14pt;
+}
+
+.dados button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 14pt;
+}
+
+.dados p {
+  padding: 2px;
+  border: white dashed 2px;
+  margin-top: 12px;
+}
