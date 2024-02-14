@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+button, p, h4 {
+  margin: 5px;
+  padding: 5px;
+
+}

@@ -1,0 +1,87 @@
+html,
+body,
+div {
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+  margin: 15px; 
+  font-family: sans-serif;
+  background-color: #fdc300;
+  overflow: hidden;
+}
+
+#app-container {
+  margin: 0 auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#img-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#formulario {
+  display: flex;
+  gap: 8px;
+}
+
+#formulario input {
+  border-radius: 4px;
+}
+
+#campo-tarefa {
+  flex-grow: 1;
+}
+
+#lista-tarefas {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  gap: 8px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+.item span {
+  flex-grow: 1;
+}
+
+.item input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+
+.item input {
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 4px;
+}
